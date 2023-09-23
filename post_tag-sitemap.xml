@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost/clashwin.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//OpenWayz.github.io/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://localhost/clashwin.org/tag/%e5%85%8d%e8%b4%b9%e8%ae%a2%e9%98%85/</loc>
+		<loc>https://OpenWayz.github.io/tag/%e5%85%8d%e8%b4%b9%e8%ae%a2%e9%98%85/</loc>
 		<lastmod>2023-09-23T05:51:59+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://localhost/clashwin.org/tag/%e6%9c%ba%e5%9c%ba/</loc>
+		<loc>https://OpenWayz.github.io/tag/%e6%9c%ba%e5%9c%ba/</loc>
 		<lastmod>2023-09-23T06:02:36+00:00</lastmod>
 	</url>
 </urlset>
