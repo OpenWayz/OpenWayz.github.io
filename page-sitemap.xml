@@ -2,10 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://OpenWayz.github.io/</loc>
-		<lastmod>2023-09-23T03:45:43+00:00</lastmod>
-		<image:image>
-			<image:loc>https://OpenWayz.github.io/wp-content/uploads/2023/09/_20230918233521-e1695107315202.png</image:loc>
-		</image:image>
+		<lastmod>2023-09-23T10:07:03+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://OpenWayz.github.io/%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9/</loc>
