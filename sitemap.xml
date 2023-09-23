@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//OpenWayz.github.io/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost/clashwin.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://OpenWayz.github.io/post-sitemap.xml</loc>
+		<loc>http://localhost/clashwin.org/post-sitemap.xml</loc>
 		<lastmod>2023-09-23T06:02:36+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://OpenWayz.github.io/page-sitemap.xml</loc>
+		<loc>http://localhost/clashwin.org/page-sitemap.xml</loc>
 		<lastmod>2023-09-23T10:07:03+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://OpenWayz.github.io/category-sitemap.xml</loc>
+		<loc>http://localhost/clashwin.org/category-sitemap.xml</loc>
 		<lastmod>2023-09-23T06:02:36+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://OpenWayz.github.io/post_tag-sitemap.xml</loc>
+		<loc>http://localhost/clashwin.org/post_tag-sitemap.xml</loc>
 		<lastmod>2023-09-23T06:02:36+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>https://OpenWayz.github.io/author-sitemap.xml</loc>
+		<loc>http://localhost/clashwin.org/author-sitemap.xml</loc>
 		<lastmod>2023-09-21T14:35:20+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

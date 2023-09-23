@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//OpenWayz.github.io/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost/clashwin.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://OpenWayz.github.io/</loc>
+		<loc>http://localhost/clashwin.org/</loc>
 		<lastmod>2023-09-23T10:07:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://OpenWayz.github.io/%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9/</loc>
+		<loc>http://localhost/clashwin.org/%e5%85%8d%e8%b4%b9%e8%8a%82%e7%82%b9/</loc>
 		<lastmod>2023-09-17T14:26:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://OpenWayz.github.io/jichangtuijian/</loc>
+		<loc>http://localhost/clashwin.org/jichangtuijian/</loc>
 		<lastmod>2023-09-20T13:34:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://OpenWayz.github.io/clashforandroid/</loc>
+		<loc>http://localhost/clashwin.org/clashforandroid/</loc>
 		<lastmod>2023-09-23T03:22:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://OpenWayz.github.io/clashdownload/</loc>
+		<loc>http://localhost/clashwin.org/clashdownload/</loc>
 		<lastmod>2023-09-23T03:44:54+00:00</lastmod>
 	</url>
 </urlset>
