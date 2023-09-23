@@ -1,0 +1,18 @@
+/**
+ * Advanced Hooks
+ */
+.single-advanced-hook .ast-no-title,
+.single-advanced-hook .hentry {
+  margin: 0;
+}
+
+.js_active .ast-plain-container.single-advanced-hook .entry-header {
+  margin: 0;
+}
+
+/**
+ * Adding clear fix for the content.
+ */
+.summary.entry-summary + [CLASS*="astra-advanced-hook"] {
+  clear: both;
+}

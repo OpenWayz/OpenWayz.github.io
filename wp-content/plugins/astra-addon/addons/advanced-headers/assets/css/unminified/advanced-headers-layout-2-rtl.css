@@ -1,0 +1,24 @@
+/**
+ * Advanced Headers Style 2
+ * 
+ * Contents
+*/
+/*----------  Media Query min-width Structure   ----------*/
+/*----------  Media Query max-width Structure   ----------*/
+/*----------  Break-point min-width Structure   ----------*/
+/*----------  Break-point max-width Structure   ----------*/
+.ast-advanced-headers-layout-2 {
+  text-align: center;
+}
+
+.ast-advanced-headers-layout-2 .ast-advanced-headers-breadcrumb {
+  margin-top: 15px;
+}
+
+.ast-advanced-headers-layout-2 .ast-title-bar-align-left {
+  text-align: right;
+}
+
+.ast-advanced-headers-layout-2 .ast-title-bar-align-right {
+  text-align: left;
+}

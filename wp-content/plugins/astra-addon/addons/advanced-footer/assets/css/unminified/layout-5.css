@@ -1,0 +1,18 @@
+/*----------  Media Query min-width Structure   ----------*/
+/*----------  Media Query max-width Structure   ----------*/
+/*----------  Break-point min-width Structure   ----------*/
+/*----------  Break-point max-width Structure   ----------*/
+@media (min-width: 769px) {
+  .footer-adv-layout-5 .ast-col-md-2,
+  .footer-adv-layout-5 .ast-col-lg-2 {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer-adv-layout-5 .footer-adv-widget-2 .widget:last-child,
+  .footer-adv-layout-5 .footer-adv-widget-3 .widget:last-child,
+  .footer-adv-layout-5 .footer-adv-widget-4 .widget:last-child {
+    margin: 0 0 2.8em;
+  }
+}

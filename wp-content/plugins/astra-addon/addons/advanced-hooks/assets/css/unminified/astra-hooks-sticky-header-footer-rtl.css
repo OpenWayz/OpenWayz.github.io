@@ -1,0 +1,81 @@
+.ast-header-sticky-active {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.ast-footer-sticky-active .ast-custom-footer {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: 99;
+}
+
+.ast-custom-header {
+  position: relative;
+  z-index: 99;
+}
+
+.ast-custom-header.ast-header-sticky-active {
+  /* BB page builder */
+  /* Elementor pag builder */
+}
+
+.ast-custom-header.ast-header-sticky-active .fl-row-content-wrap {
+  transition: padding 0.3s linear;
+}
+
+.ast-custom-header.ast-header-sticky-active .fl-module-content {
+  transition: all 0.3s linear;
+}
+
+.ast-custom-header.ast-header-sticky-active .elementor-section-wrap {
+  transition: padding 0.3s linear;
+}
+
+.ast-custom-header.ast-header-sticky-active .elementor-row > .elementor-column > .elementor-element-populated {
+  transition: all 0.3s linear;
+}
+
+/*Shrink the sticky header*/
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk {
+  /* BB page builder */
+  /* Elementor pag builder */
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .fl-row-content-wrap {
+  transition: padding 0.3s linear;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .fl-module-content {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: all 0.3s linear;
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .fl-module-content.fl-node-content img {
+  max-height: 50px;
+  width: auto;
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .elementor-section-wrap {
+  transition: padding 0.3s linear;
+  box-sizing: border-box;
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .elementor-section-wrap img {
+  max-height: 50px;
+  width: auto;
+}
+
+.ast-shrink-custom-header .ast-custom-header.ast-sticky-shrunk .elementor-row > .elementor-column > .elementor-element-populated {
+  max-height: 60px;
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,298 @@
+.ast-hb-account-login-wrapper .ast-hb-account-login {
+  position: fixed;
+  right: 50%;
+  top: 50%;
+  padding: 35px;
+  max-height: 550px;
+  width: 340px;
+  margin: 0 -170px 0 0;
+  background-color: #f1f1f1;
+  z-index: 1000011;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.ast-hb-account-login-wrapper .ast-hb-account-login-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #000;
+  opacity: .7;
+  z-index: 1000010;
+  transition: all 0.3s;
+}
+
+.ast-hb-account-login-wrapper .ast-hb-login-header .ast-hb-login-close {
+  background: 100% 0;
+  border: 0;
+  font-size: 24px;
+  line-height: 1;
+  padding: .4em;
+  color: inherit;
+  -js-display: flex;
+  display: flex;
+  box-shadow: none;
+}
+
+.ast-hb-account-login-wrapper #loginform input[type=text],
+.ast-hb-account-login-wrapper #loginform input[type=password] {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.ast-hb-account-login-form-footer a.ast-header-account-footer-link:not(:last-child) span:after {
+  content: "|";
+  margin: 0 0.4em;
+}
+
+.ast-header-account-link.ast-account-action-link,
+.ast-header-break-point .ast-header-account-link,
+.ast-header-account-link.ast-account-action-login,
+.ast-header-account-link.ast-account-action-login.customize-unpreviewable {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.ast-header-account {
+  -js-display: flex;
+  display: flex;
+}
+
+.ast-header-account-wrap .ast-hb-account-login-wrapper {
+  visibility: hidden;
+}
+
+.ast-header-account-wrap .ast-hb-account-login-wrapper .ast-hb-login-header {
+  -js-display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  min-height: calc(1.2em + 24px);
+}
+
+.ast-header-account-wrap .ast-hb-account-login-wrapper .ast-hb-account-login {
+  transform: scale(0.7);
+  opacity: 0;
+  transition: all 0.3s;
+  overflow: auto;
+}
+
+.ast-header-account-wrap .ast-hb-account-login-wrapper.show {
+  visibility: visible;
+}
+
+.ast-header-account-wrap .ast-hb-account-login-wrapper.show .ast-hb-account-login {
+  transform: scale(1) translateY(-50%);
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ast-hb-login-body {
+  height: 100%;
+  position: relative;
+  line-height: 1.5;
+}
+
+/* menu */
+.ast-hf-account-menu-wrap.ast-main-header-bar-alignment {
+  position: relative;
+}
+
+.main-header-bar .main-header-bar-navigation .ast-account-nav-menu {
+  line-height: 1.45;
+}
+
+.ast-account-nav-menu {
+  width: 240px;
+  background: #fff;
+  right: -999em;
+  position: absolute;
+  top: 0px;
+  z-index: 99999;
+  list-style: none;
+  margin: 0;
+  padding-right: 0;
+  border: 0;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
+}
+
+.ast-account-nav-menu .sub-menu {
+  left: auto;
+  top: 0;
+  margin-right: 0;
+}
+
+.ast-account-nav-menu .menu-item.focus > .sub-menu,
+.ast-account-nav-menu .menu-item:hover > .sub-menu {
+  right: 100%;
+}
+
+.ast-account-nav-menu .ast-left-align-sub-menu.menu-item.focus > .sub-menu,
+.ast-account-nav-menu .ast-left-align-sub-menu.menu-item:hover > .sub-menu {
+  right: -100%;
+}
+
+.ast-account-nav-menu .menu-item .menu-link {
+  padding: .9em 1em;
+}
+
+.ast-account-nav-menu .menu-item {
+  border-style: none;
+}
+
+.ast-account-nav-menu .menu-item.menu-item-has-children > .menu-link:after {
+  position: absolute;
+  left: 1em;
+  top: 50%;
+  transform: translate(0, -50%) rotate(-270deg);
+}
+
+.ast-primary-header-bar .main-header-menu.ast-account-nav-menu > .menu-item,
+.ast-above-header-bar .main-header-menu.ast-account-nav-menu > .menu-item,
+.ast-below-header-bar .main-header-menu.ast-account-nav-menu > .menu-item {
+  height: auto;
+  line-height: unset;
+  bottom: -5px;
+}
+
+.ast-header-account-wrap .woocommerce-MyAccount-navigation-link.is-active a {
+  background: unset;
+}
+
+.ast-header-account-wrap .menu-item:last-child > .menu-link {
+  border-style: none;
+}
+
+.ast-divider-wrapper {
+  border: 0;
+}
+
+.ast-mobile-popup-content .ast-header-divider-element {
+  justify-content: center;
+}
+
+.ast-header-divider-element {
+  position: relative;
+}
+
+.ast-fb-divider-layout-vertical {
+  position: relative;
+}
+
+.ast-hb-divider-layout-vertical.ast-header-divider-element {
+  height: 100%;
+}
+
+/** Default Spacing for Mobile Header elements except Menu */
+.ast-mobile-popup-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element),
+.ast-mobile-header-content .ast-builder-layout-element:not(.ast-builder-menu):not(.ast-header-divider-element) {
+  padding: 15px 20px;
+}
+
+.footer-widget-area .ast-footer-divider-element {
+  position: relative;
+  align-items: center;
+}
+
+.footer-widget-area .ast-divider-wrapper {
+  display: inline-block;
+}
+
+.ast-builder-footer-grid-columns .ast-fb-divider-layout-horizontal {
+  -js-display: inline-flex;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+/**
+ * Button.
+ */
+[data-section*="section-hb-button-"] .ast-builder-button-size-xs .ast-custom-button,
+[data-section*="section-fb-button-"] .ast-builder-button-size-xs .ast-custom-button {
+  font-size: 13px;
+  padding: 8px 20px;
+}
+
+[data-section*="section-hb-button-"] .ast-builder-button-size-sm .ast-custom-button,
+[data-section*="section-fb-button-"] .ast-builder-button-size-sm .ast-custom-button {
+  font-size: 15px;
+  padding: 10px 40px;
+}
+
+[data-section*="section-hb-button-"] .ast-builder-button-size-md .ast-custom-button,
+[data-section*="section-fb-button-"] .ast-builder-button-size-md .ast-custom-button {
+  font-size: 17px;
+  padding: 15px 45px;
+}
+
+[data-section*="section-hb-button-"] .ast-builder-button-size-lg .ast-custom-button,
+[data-section*="section-fb-button-"] .ast-builder-button-size-lg .ast-custom-button {
+  font-size: 19px;
+  padding: 20px 50px;
+}
+
+[data-section*="section-hb-button-"] .ast-builder-button-size-xl .ast-custom-button,
+[data-section*="section-fb-button-"] .ast-builder-button-size-xl .ast-custom-button {
+  font-size: 21px;
+  padding: 25px 55px;
+}
+
+.ast-fb-divider-layout-vertical {
+  -js-display: flex;
+  display: flex;
+}
+
+.site-footer-section {
+  position: relative;
+}
+
+.ast-builder-language-switcher .ast-builder-language-switcher-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ast-builder-language-switcher-layout-vertical .ast-builder-language-switcher {
+  display: block;
+}
+
+.ast-builder-language-switcher-layout-vertical .ast-builder-language-switcher-menu {
+  display: block;
+}
+
+.ast-builder-language-switcher-layout-horizontal .ast-builder-language-switcher {
+  -js-display: flex;
+  display: flex;
+}
+
+.ast-builder-language-switcher-layout-horizontal .ast-builder-language-switcher-menu {
+  -js-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ast-builder-language-switcher a {
+  -js-display: flex;
+  display: flex;
+  align-items: center;
+}
+
+.ast-lswitcher-item-header,
+.ast-lswitcher-item-footer {
+  -js-display: inline-flex;
+  display: inline-flex;
+}
+
+span.ast-lswitcher-item-footer:last-child,
+span.ast-lswitcher-item-header:last-child {
+  margin-left: 0px;
+}

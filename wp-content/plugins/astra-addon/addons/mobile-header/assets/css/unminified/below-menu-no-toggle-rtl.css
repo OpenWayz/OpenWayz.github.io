@@ -1,0 +1,167 @@
+/*----------  Media Query min-width Structure   ----------*/
+/*----------  Media Query max-width Structure   ----------*/
+/*----------  Break-point min-width Structure   ----------*/
+/*----------  Break-point max-width Structure   ----------*/
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated .ast-below-header-actual-nav {
+  display: block;
+  position: relative;
+  transform: none;
+  overflow: initial;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-1 .ast-below-header-section-wrap .ast-justify-content-flex-end:first-child {
+  padding-top: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav li,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items li {
+  display: inline-block;
+  width: auto;
+  float: right;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .menu-item-has-children > .ast-menu-toggle,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .menu-item-has-children > .ast-menu-toggle {
+  left: 0;
+  position: relative;
+  top: 0;
+  transition: all 0.2s linear;
+  border-radius: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .ast-below-header-menu > .menu-item-has-children > .ast-menu-toggle,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .ast-below-header-menu > .menu-item-has-children > .ast-menu-toggle {
+  font-size: 0.8em;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav ul li a,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu .menu-item .menu-link {
+  width: auto;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .menu-item-has-children {
+  -js-display: inline-flex;
+  display: inline-flex;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .menu-item.ast-sub-menu-goes-outside:hover > .sub-menu,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .menu-item.ast-sub-menu-goes-outside.focus > .sub-menu,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 240px;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu .menu-item {
+  position: relative;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated.ast-below-header-mobile-stack .below-header-section-1,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated.ast-below-header-mobile-stack .below-header-section-2 {
+  text-align: center;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated.ast-below-header-mobile-stack .below-header-section-1 .sub-menu,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated.ast-below-header-mobile-stack .below-header-section-2 .sub-menu {
+  text-align: right;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu > .menu-item-has-children > .menu-link {
+  padding-left: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu .menu-item {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu .menu-item .menu-link {
+  width: 100%;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item-has-children > .ast-menu-toggle,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu .menu-item-has-children > .ast-menu-toggle {
+  position: absolute;
+  background: transparent;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu .sub-menu {
+  position: relative;
+  width: 100%;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-item .menu-item .menu-link:before {
+  content: "";
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .menu-item .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu > .menu-item-has-children > .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-section-separated .ast-below-header-menu,
+.ast-header-break-point.ast-no-toggle-below-menu-enable.below-header-nav-padding-support .ast-below-header-menu .menu-item .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable.below-header-nav-padding-support .ast-below-header-menu .menu-item:first-child .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable.below-header-nav-padding-support .ast-below-header-menu .menu-item:last-child .menu-link,
+.ast-header-break-point.ast-no-toggle-below-menu-enable.below-header-nav-padding-support .ast-justify-content-flex-end .ast-below-header-menu > .menu-item-has-children > .menu-link {
+  border: none;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-navigation > .ast-below-header-menu > .menu-item:last-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-navigation > ul > li:last-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-navigation ul > li:first-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu > .menu-item:first-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-navigation ul li {
+  border-style: solid;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-navigation ul ul ul li {
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header .ast-below-header-menu > .menu-item:last-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav ul > li:first-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu-items .sub-menu > .menu-item:first-child {
+  border-style: solid;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav > .ast-below-header-menu > li:first-child {
+  border-left: none;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu .menu-item,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu .menu-item:last-child {
+  border-bottom: 0;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu .sub-menu .menu-item {
+  border-bottom: none;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu > .menu-item > .sub-menu .menu-item:last-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item:last-child,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav ul ul li:last-child {
+  border-style: solid;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-menu > .menu-item > .sub-menu .sub-menu .menu-item:last-child {
+  border-bottom: none;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav ul ul li {
+  border-bottom: none;
+}
+
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-item .menu-link:before,
+.ast-header-break-point.ast-no-toggle-below-menu-enable .ast-below-header-actual-nav .sub-menu .menu-item .menu-item .menu-item .menu-item .menu-link:before {
+  content: "";
+}

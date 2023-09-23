@@ -1,0 +1,86 @@
+#ast-checkout-wrap {
+  -js-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+
+#ast-checkout-wrap a {
+  -js-display: flex;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--ast-global-color-3);
+  opacity: .5;
+  transition: .3s;
+}
+
+#ast-checkout-wrap a p {
+  margin-bottom: 0;
+}
+
+#ast-checkout-wrap a.ast-disable-click {
+  pointer-events: none;
+}
+
+#ast-checkout-wrap a .ast-step-number {
+  background-color: var(--ast-global-color-3);
+  color: var(--ast-global-color-5);
+  margin: 0 0.5em;
+  margin-right: 0;
+  font-weight: bolder;
+  text-align: center;
+  height: 1.5em;
+  width: 1.5em;
+  font-size: .7em;
+  line-height: 1.5em;
+  border-radius: 99px;
+}
+
+#ast-checkout-wrap a.ast-current, #ast-checkout-wrap a:hover {
+  color: var(--ast-global-color-0);
+  opacity: 1;
+}
+
+#ast-checkout-wrap a.ast-current .ast-step-number, #ast-checkout-wrap a:hover .ast-step-number {
+  background-color: var(--ast-global-color-0);
+}
+
+#ast-checkout-wrap.ast-checkout-uppercase a {
+  text-transform: uppercase;
+}
+
+#ast-checkout-wrap .ahfb-svg-iconset {
+  margin: 0 0.5em;
+  fill: var(--ast-global-color-3);
+  opacity: .5;
+}
+
+#ast-checkout-wrap.ast-checkout-default a {
+  font-size: 2rem;
+}
+
+#ast-checkout-wrap.ast-checkout-default a .ahfb-svg-iconset svg {
+  width: 1em;
+  height: 1em;
+}
+
+#ast-checkout-wrap.ast-checkout-small a {
+  font-size: 1.5em;
+}
+
+#ast-checkout-wrap.ast-checkout-small a .ahfb-svg-iconset svg {
+  width: .9em;
+  height: .9em;
+}
+
+#ast-checkout-wrap.ast-checkout-smaller a {
+  font-size: 1.3em;
+}
+
+#ast-checkout-wrap.ast-checkout-smaller a .ahfb-svg-iconset svg {
+  width: .8em;
+  height: .8em;
+}

@@ -1,0 +1,73 @@
+/**
+ *	Author Info for Single Post
+ *
+ *	Content
+ *	1 - Author Info Wrapper
+ *	2 - Author Details Styles
+ *	3 - Author Avatar Styles
+ */
+/*----------  Media Query min-width Structure   ----------*/
+/*----------  Media Query max-width Structure   ----------*/
+/*----------  Break-point min-width Structure   ----------*/
+/*----------  Break-point max-width Structure   ----------*/
+.single {
+  /* 1 - Author Info Wrapper */
+}
+
+.single .ast-single-author-box {
+  display: inline-block;
+  margin-top: 2em;
+  width: 100%;
+  border-top: 1px solid var(--ast-border-color);
+}
+
+.single .ast-author-meta {
+  /* 2 - Author Details Styles */
+  /* 3 - Author Avatar Styles */
+}
+
+.single .ast-author-meta .ast-author-details {
+  width: 100%;
+}
+
+.single .ast-author-meta .about-author-title-wrapper,
+.single .ast-author-meta .post-author-bio {
+  text-align: center;
+}
+
+.single .ast-author-meta .post-author-avatar {
+  text-align: center;
+  padding-right: 0;
+}
+
+.single .ast-author-meta .post-author-avatar img {
+  border-radius: 50%;
+  min-width: 100px;
+}
+
+.single .ast-author-meta .about-author-title-wrapper {
+  padding: 0 0 1em;
+}
+
+.single.ast-separate-container .ast-single-author-box {
+  border-top: 0;
+}
+
+.single.ast-separate-container .ast-author-meta {
+  background-color: #fff;
+  padding: 4em 6.67em;
+}
+
+@media (max-width: 1200px) {
+  .single.ast-separate-container .ast-author-meta {
+    padding: 3.34em 2.4em;
+  }
+}
+
+.single.ast-plain-container .ast-single-author-box, .single.ast-page-builder-template .ast-single-author-box, .single.ast-narrow-container .ast-single-author-box {
+  padding-top: 2em;
+}
+
+.single.ast-plain-container .ast-single-author-box, .single.ast-narrow-container .ast-single-author-box {
+  margin-top: 0;
+}

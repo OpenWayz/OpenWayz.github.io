@@ -1,0 +1,77 @@
+/*----------  Media Query min-width Structure   ----------*/
+/*----------  Media Query max-width Structure   ----------*/
+/*----------  Break-point min-width Structure   ----------*/
+/*----------  Break-point max-width Structure   ----------*/
+.ast-checkout-labels-as-placeholders form #customer_details .form-row {
+  position: relative;
+}
+
+.ast-checkout-labels-as-placeholders form #customer_details .form-row label {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  transition: all .2s ease-out;
+  font-size: 12px;
+  margin-top: .5em;
+  padding: 0 1.02em;
+  line-height: 1.625;
+  opacity: 0;
+}
+
+.ast-checkout-labels-as-placeholders form #customer_details .form-row.ast-float-label label {
+  opacity: 1;
+}
+
+.ast-checkout-labels-as-placeholders form #customer_details .form-row.ast-float-label #billing_address_2,
+.ast-checkout-labels-as-placeholders form #customer_details .form-row.ast-float-label #shipping_address_2 {
+  padding: .75em .8em;
+}
+
+.ast-checkout-labels-as-placeholders form #customer_details .form-row .wc-terms-and-conditions label,
+.ast-checkout-labels-as-placeholders form #customer_details .form-row fieldset label {
+  position: relative;
+  opacity: 1;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 13.5px;
+  font-size: 0.9rem;
+  padding: 0;
+  pointer-events: auto;
+}
+
+.ast-checkout-labels-as-placeholders form #customer_details .form-row label.checkbox {
+  position: relative;
+  opacity: 1;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 13.5px;
+  font-size: 0.9rem;
+  padding: 0;
+  pointer-events: auto;
+}
+
+.ast-checkout-labels-as-placeholders form input[type="text"],
+.ast-checkout-labels-as-placeholders form input[type="email"],
+.ast-checkout-labels-as-placeholders form input[type="tel"],
+.ast-checkout-labels-as-placeholders form input[type="number"],
+.ast-checkout-labels-as-placeholders form input[type="password"],
+.ast-checkout-labels-as-placeholders form select,
+.ast-checkout-labels-as-placeholders form textarea {
+  padding: .75em .8em;
+  transition: all .2s ease;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.ast-checkout-labels-as-placeholders form .ast-float-label input[type="text"],
+.ast-checkout-labels-as-placeholders form .ast-float-label input[type="email"],
+.ast-checkout-labels-as-placeholders form .ast-float-label input[type="tel"],
+.ast-checkout-labels-as-placeholders form .ast-float-label input[type="number"],
+.ast-checkout-labels-as-placeholders form .ast-float-label input[type="password"],
+.ast-checkout-labels-as-placeholders form .ast-float-label select,
+.ast-checkout-labels-as-placeholders form .ast-float-label textarea {
+  padding: 1.3em 0.8em 0.2em 0.8em;
+}
