@@ -1,0 +1,47 @@
+﻿#q2w3_fixed_widget-recommend { 
+	background: linear-gradient(to right, #42bcf3 0%,#1892eb 100%); background: #1892eb;
+	border: 1px solid #ffffff; 
+	box-shadow: inset 0px 0px 35px 10px rgba(0,0,0,0.15), 0px 0px 5px rgba(0,0,0,0.25);
+	color: #ffffff; 
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    font-size: 1.2em;
+}
+
+#q2w3_fixed_widget-recommend.closed { border-bottom: 0; }
+
+#q2w3_fixed_widget-recommend h2, #q2w3_fixed_widget-recommend .inside a, #q2w3_fixed_widget-recommend .handlediv, #q2w3_fixed_widget-recommend .toggle-indicator { color: #ffffff; }
+
+#q2w3_fixed_widget-recommend h2 { font-size: 15px; }
+
+#q2w3_fixed_widget-recommend .inside p { font-size: 14px; }
+
+#q2w3_fixed_widget-recommend .inside div.review { text-align: center; margin: 20px 0px 0px 0px; }
+#q2w3_fixed_widget-recommend .inside div.review h5 { font-weight: 400; font-size: 16px; margin: 0px 0px 5px 0px; font-style: italic; }
+#q2w3_fixed_widget-recommend .inside div.review p { margin: 0px 0px 5px 0px; }
+#q2w3_fixed_widget-recommend .inside div.review p.content { font-style: italic; font-size: 12px; }
+#q2w3_fixed_widget-recommend .inside div.review p.subline { font-size: 12px; }
+
+#q2w3_fixed_widget-recommend .inside .button-var1:hover { background: rgba(0,0,0,0.60); border-color: rgba(0,0,0,0.75); }
+#q2w3_fixed_widget-recommend .inside .button-var1 {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #333333; border-color: rgba(0,0,0,0.95);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+	background: #000000; background: rgba(0,0,0,0.80);
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold; 
+	line-height: normal;
+	border-radius: 2px;
+} 
+
+#q2w3_fixed_widget-recommend .inside div.review:before {
+    display: block;
+    content: " ";
+    /* https://www.iconfinder.com/icons/326703/favorite_rate_star_icon */
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADEQAAAxEBQphATgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVCiRldI/T5NRFMfxz30aCzI4mJaJMpgYwKYmpdYYd3gHLiy+AgcmBth4Awy+C0fCIC+AaH1a4gCJgwMJDA5ER1OwlwFs+mifh/YkN7n5nXO+58+9FFjseB2PPC6KSYqcErtmbBWFhNzqX7wUfMZv156GV86n6yCxfXeb9cDOVB3EVANfR/xXokZo+/YfIH6yoKQhqGMZdTzDozHsHzgbnsR+iB1tiQNUc8cZb1196wFi14roI2oTJ5ethed+DncQU4s4xNKkyfyzxNhTNXCKSk7yHyWV0PTrr5B9xqZLzBVUL+mbHxWygGO1ewAkWvmAQWb+vuC9YBMXQzVYzQfc/oOID4J6aHkXWvY89ET0Ft/JAjIWUxux50Wu/0Q5pt6Majcm/kSYKQos8gAAAABJRU5ErkJggg==') top left repeat-x;
+    color: #ffffff;
+    height: 15px;
+    width: 80px;
+    margin: 0px auto 5px auto;
+}
