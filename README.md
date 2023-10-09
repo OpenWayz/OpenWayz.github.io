@@ -150,3 +150,10 @@ IEPL专线加中转SS机场，开业时间2022年，价格比较优惠，而且�
 Silver | 50G/月 |248￥/年
 Gold   | 200G/月 |37￥/月
 Diamond | 500G/月 |110￥/月
+
+### Telegram
+了解最新机场的信息，最新机场优惠折扣信息，相关新闻。
+
+欢迎关注我的Telegram频道。
+
+🔥[*点击链接关注自由之路Freeway频道*](https://t.me/openwayz)
