@@ -1,7 +1,7 @@
 # _config.yml
 title: "平价、稳定自用可付费机场推荐持续更新（2023/10）"
 description: 推荐整理平价、稳定自用可付费机场推荐，方便用户选择
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
     - jekyll-github-metadata
     - jekyll-sitemap
