@@ -1,5 +1,6 @@
 # _config.yml
 title: "平价、稳定自用可付费机场推荐持续更新（2023/10）"
+remote_theme: cayman
 plugins:
     - jekyll-github-metadata
     - jekyll-sitemap
