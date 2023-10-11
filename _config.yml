@@ -7,6 +7,8 @@ plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - jemoji
+    - jekyll-readme-index
     - jekyll-remote-theme # add this line to the plugins list if you already have one
+    
 
 # google_analytics: [Your Google Analytics tracking ID]
