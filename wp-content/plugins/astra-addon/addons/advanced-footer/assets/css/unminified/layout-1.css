@@ -1,9 +1,0 @@
-/*----------  Media Query min-width Structure   ----------*/
-/*----------  Media Query max-width Structure   ----------*/
-/*----------  Break-point min-width Structure   ----------*/
-/*----------  Break-point max-width Structure   ----------*/
-@media (min-width: 769px) {
-  .footer-adv-layout-1 .footer-adv-widget {
-    text-align: center;
-  }
-}
