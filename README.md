@@ -148,8 +148,8 @@ Diamond | 500G/月 |110￥/月
 
 ### 其他参考链接
 
-[Clash for Windows 使用教程快速入门](https://clashwin.org/)
-[Clash for Android 使用教程快速入门](https://clashwin.org/clashforandroid/)
-[注册可免费试用的机场](https://clashwin.org/freetrail/)
-[Shadowrocket小火箭美区共享帐号免费下载](https://clashwin.org/shadowrocket/)
-[Telegram注册国内+86手机收不到验证码怎么办？](https://clashwin.org/telegramregister/)
+[Clash for Windows 使用教程快速入门](https://clashwin.org/)  
+[Clash for Android 使用教程快速入门](https://clashwin.org/clashforandroid/)  
+[注册可免费试用的机场](https://clashwin.org/freetrail/)  
+[Shadowrocket小火箭美区共享帐号免费下载](https://clashwin.org/shadowrocket/)  
+[Telegram注册国内+86手机收不到验证码怎么办？](https://clashwin.org/telegramregister/)  
