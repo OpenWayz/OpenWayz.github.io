@@ -7,12 +7,11 @@ plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - jemoji
-    - jekyll-readme-index
+#    - jekyll-readme-index
     - jekyll-remote-theme # add this line to the plugins list if you already have one
-readme_index:
-  enabled:          true
-  remove_originals: false
-  with_frontmatter: false
-    
+#readme_index:
+#  enabled:          true
+#  remove_originals: false
+#  with_frontmatter: false
 
 google_analytics: G-S3RXRD9QNL
