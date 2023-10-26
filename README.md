@@ -11,7 +11,7 @@
 
 更多可注册试用流量白嫖的机场，可参考我的另一篇总结，✔️[*注册可免费试用的机场*](https://www.openwayz.com/trialnode/) 
 
-2. 客户端：（推荐**Clash**,自动根据速度切换节点，很普通用户很方便）  
+2. 客户端：（推荐**Clash**,自动根据速度切换节点，对普通用户很方便）  
 1) Windows：Clash For Windows、V2rayN      
 2) Mac：Clash For Windows的Mac版本、ClashX、ClashX Pro     
 3) IOS：Shadowrocket(小火箭)    
