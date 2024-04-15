@@ -117,10 +117,11 @@ Lv05 | 500G/月 |65￥/月;185/季;351/半年;663￥/年
 套餐B | 370G/月 | 30￥/月，81￥/季 | 5
 套餐C | 810G/月 | 50￥/月，135￥/季 | 10
 
-### 其他参考链接
+### 其他友情参考链接
 
 [Clash for Windows 使用教程快速入门](https://clashwin.org/)  
 [Clash for Android 使用教程快速入门](https://clashwin.org/clashforandroid/)  
 [注册可免费试用的机场](https://clashwin.org/freetrail/)  
 [Shadowrocket小火箭美区共享帐号免费下载](https://clashwin.org/shadowrocket/)  
 [Telegram注册国内+86手机收不到验证码怎么办？](https://clashwin.org/telegramregister/)  
+[香港地区最好的VPS alicenetworks.net](https://alicenetworks.net/)  
