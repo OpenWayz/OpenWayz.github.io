@@ -33,7 +33,7 @@ E套餐 | 300G/月|36￥/月，108￥/季，194￥/半年，360￥/年
   
 [OTE Accelerator官网地址](https://ust.oteacc.org/passport.html#/register?code=NJ0rQD4l)    
 
-[OTE机场节点延迟](https://clashwin.org/ote/)
+[OTE机场节点延迟](https://www.openwayz.com/ote/)
 
 
 **套餐：**
